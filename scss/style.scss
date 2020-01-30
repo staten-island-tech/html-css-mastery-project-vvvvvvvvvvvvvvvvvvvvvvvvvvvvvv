@@ -2,24 +2,36 @@ body{
     font-size: 62.5%;
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
-.block-2-boxes {
+.block2-boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 2rem;
     filter: grayscale(30%);
+    position: relative;
 }
 
 .block2-box1 {
-    margin: 1rem;
+    margin: 2rem;
+    position: absolute;
+    top: 1rem
 }
 
 .block2-box2 {
-    margin: 1rem;
+    margin: 2rem;
+    position: absolute;
+    top: 19rem
 }
 
 .block2-box3 {
-    margin: 1rem;
+    margin: 2rem;
+    position: absolute;
+    top: 37rem
+}
+
+.block2-box1-smallerhalf {
+    margin-left: 1.1rem;
 }
