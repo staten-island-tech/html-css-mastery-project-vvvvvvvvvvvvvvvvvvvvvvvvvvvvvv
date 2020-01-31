@@ -4,6 +4,9 @@ body{
     padding: 0%;
     box-sizing: border-box;
 }
+img {
+    height: 24vh;
+}
 .block2-boxes {
     display: flex;
     flex-direction: column;
@@ -11,27 +14,38 @@ body{
     justify-content: center;
     margin: 2rem;
     filter: grayscale(30%);
-    position: relative;
+    height: 2rem;
 }
 
 .block2-box1 {
-    margin: 2rem;
-    position: absolute;
-    top: 1rem
+   margin: 2rem;
 }
 
 .block2-box2 {
     margin: 2rem;
-    position: absolute;
-    top: 19rem
 }
 
 .block2-box3 {
     margin: 2rem;
-    position: absolute;
-    top: 37rem
 }
 
 .block2-box1-smallerhalf {
-    margin-left: 1.1rem;
+    margin-left: 1.27rem;
+}
+.block2-box2-smallerhalf {
+    margin-right: 1.27rem;
+}
+.block2-box3-smallerhalf {
+    margin-left: 1.27rem;
+}
+
+.block2-box1-biggerhalf:hover .block2-box1-smallerhalf{
+    translate: 10rem;
+}
+.fun-facts-about-ice-cream:not(hover) {
+opacity: 0%;
+} 
+
+.block2-box1:hover {
+padding: 10rem;
 }
