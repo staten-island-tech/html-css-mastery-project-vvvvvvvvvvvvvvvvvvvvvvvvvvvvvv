@@ -4,48 +4,110 @@ body{
     padding: 0%;
     box-sizing: border-box;
 }
+.block2-title{
+    font-size: 400%;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: -2rem;
+}
 img {
     height: 24vh;
 }
-.block2-boxes {
+.block2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 105%;    
+    font-family: 'Indie Flower', cursive;
+}
+.block2-boxes {
     margin: 2rem;
     filter: grayscale(30%);
-    height: 2rem;
 }
 
 .block2-box1 {
-   margin: 2rem;
+   margin: 4rem;
 }
 
 .block2-box2 {
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .block2-box3 {
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .block2-box1-smallerhalf {
-    margin-left: 1.27rem;
+    margin-left: 1.2rem;
 }
 .block2-box2-smallerhalf {
-    margin-right: 1.27rem;
+    margin-right: 1.2rem;
 }
 .block2-box3-smallerhalf {
-    margin-left: 1.27rem;
+    margin-left: 1.2rem;
 }
 
-.block2-box1-biggerhalf:hover .block2-box1-smallerhalf{
-    translate: 10rem;
-}
-.fun-facts-about-ice-cream:not(hover) {
-opacity: 0%;
+.block2-box1:hover .block2-box1-smallerhalf {
+    translate: 5rem;
+    transition: 0.5s;
 } 
 
-.block2-box1:hover {
-padding: 10rem;
+.block2-box1:hover .block2-box1-biggerhalf {
+    translate: -8rem;
+    transition: 0.5s;
+}
+.block2-box2:hover .block2-box2-smallerhalf {
+    translate: -5rem;
+    transition: 0.5s;
+} 
+
+.block2-box2:hover .block2-box2-biggerhalf {
+    translate: 8rem;
+    transition: 0.5s;
+}
+.block2-box3:hover .block2-box3-smallerhalf {
+    translate: 5rem;
+    transition: 0.5s;
+} 
+
+.block2-box3:hover .block2-box3-biggerhalf {
+    translate: -8rem;
+    transition: 0.5s;
+}
+ .fact1:not(hover){
+    opacity: 0%;
+} 
+.block2-box1:hover .fact1{
+    opacity: 100%;
+    transition: 0.5s;
+}
+.fact1-container {
+    width: 11rem;
+    margin-top: -14.8rem;
+    margin-left: 37rem;
+}
+
+.fact2:not(hover){
+    opacity: 0%;
+}
+.block2-box2:hover .fact2{
+    opacity: 100%;
+    transition: 0.5s;
+}
+.fact2-container {
+    width: 11rem;
+    margin-top: -15.45rem;
+}
+
+.fact3:not(hover){
+    opacity: 0%;
+} 
+.block2-box3:hover .fact3{
+    opacity: 100%;
+    transition: 0.5s;
+}
+.fact3-container {
+    width: 11rem;
+    margin-top: -13rem;
+    margin-left: 37rem;
 }
