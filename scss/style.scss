@@ -10,12 +10,14 @@ body{
     font-family: 'Indie Flower', cursive;
     margin-bottom: -5rem;
 }
-.facts {
+.block2-images {
     height: 24vh;
-    @include ipad {
+    @include tablet {
         height: 15vh;
     }
 }
+        
+    
 .block2 {
     display: flex;
     flex-direction: column;
@@ -23,10 +25,13 @@ body{
     justify-content: center;
     font-size: 105%;    
     font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
+
 .block2-boxes {
-    margin: 2rem;
+    margin: -2rem;
     filter: grayscale(30%);
+    text-align: center;
 }
 
 .block2-box1 {
@@ -39,7 +44,7 @@ body{
 
 .block2-box3 {
     margin: 4rem;
-    margin-top: -15rem;
+    // margin-top: -15rem;
 }
 
 .block2-box1-smallerhalf {
