@@ -158,43 +158,43 @@ body {
 
 .block5 {
   height: 100vh;
+  font-size: 0.9rem;
+  background-image: url("../media/block5-backgroundimage.jpg");
 }
 
-.block5-background {
-  width: 100%;
+.block5-content-boxes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+.bl5bx {
+  height: 35rem;
+  width: 25rem;
+  background-color: pink;
+  opacity: 80%;
+  margin: 16rem;
+}
+
 .block5-box1 {
-  margin-top: 1rem;
-  height: 10rem;
-  width: 6rem;
-  color: pink;
-  opacity: 50%;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .block5-box2 {
-  height: 10rem;
-  width: 6rem;
-  color: pink;
-  opacity: 50%;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 /* clipPath: polygon{
 
-} */
+}*/
 /*# sourceMappingURL=style.css.map */
