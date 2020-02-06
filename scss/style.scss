@@ -127,7 +127,7 @@ body{
 }
 .block5-content-boxes{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -136,13 +136,21 @@ body{
     width: 25rem;
     background-color: pink;
     opacity: 80%;
-    margin: 16rem;
 }
-.block5-box1 {
-    margin: 1rem;
+
+.block5-questions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
-.block5-box2 {
-    margin: 1rem;
+
+
+.block5-box1{
+    padding: 1rem;
+}
+.block5-box2{
+    padding: 1rem;
 }
 /* clipPath: polygon{
 
