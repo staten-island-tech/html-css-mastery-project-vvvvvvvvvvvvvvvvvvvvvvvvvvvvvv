@@ -1,0 +1,38 @@
+
+.block5{
+    height: 100vh;
+    font-size: 0.85rem;
+    background-image: url("../media/block5-backgroundimage.jpg");
+    font-family: 'Indie Flower', cursive;
+}
+
+ .vertical-boxes{
+    height: 35rem;
+    width: 25rem;
+    background-color: pink;
+    opacity: 80%;
+} 
+
+.block5-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+    margin: 2rem;
+} 
+.block5-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+    margin: 2rem;
+} 
+.block5-content-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.block5{
+    font-size: 2rem;
+}
