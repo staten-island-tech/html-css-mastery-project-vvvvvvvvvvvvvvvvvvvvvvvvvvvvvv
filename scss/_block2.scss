@@ -5,11 +5,17 @@
     @include tablet {
         margin-bottom: -1rem;
     }
+    @include phone {
+        font-size: 1.5rem;
+    }
 }
 .block2-images {
     height: 24vh;
     @include tablet {
         height: 15vh;
+    }
+    @include phone {
+        height: 12.5vh;
     }
 }
         
@@ -38,6 +44,9 @@
 .block2-box2 {
     margin: 4rem;
     height: 24vh;
+    @include phone {
+        margin: -7rem;
+    }
 }
 
 .block2-box3 {
@@ -47,22 +56,41 @@
 
 .block2-box1-smallerhalf {
     margin-left: 1.2rem;
+    @include phone {
+        margin-left: 0.4rem;
+    }
 }
 .block2-box2-smallerhalf {
     margin-right: 1.2rem;
+    @include phone {
+        margin-right: 0.4rem;
+    }
 }
 .block2-box3-smallerhalf {
     margin-left: 1.2rem;
+    @include phone {
+        margin-left: 0.4rem;
+    }
 }
 
 .block2-box1:hover .block2-box1-smallerhalf {
     translate: 5rem;
     transition: 0.5s;
+    @include phone {
+        .block2-box1:active .block2-box1-smallerhalf {
+            translate: 5rem;
+            transition: 0.5s;}
+    }
 } 
 
 .block2-box1:hover .block2-box1-biggerhalf {
     translate: -8rem;
     transition: 0.5s;
+    @include phone {
+        .block2-box1:active .block2-box1-biggerhalf {
+            translate: -8rem;
+            transition: 0.5s;}
+    }
 }
 .block2-box2:hover .block2-box2-smallerhalf {
     translate: -5rem;
