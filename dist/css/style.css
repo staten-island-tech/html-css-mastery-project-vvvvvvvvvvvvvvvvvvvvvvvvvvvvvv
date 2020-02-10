@@ -10,7 +10,7 @@
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block2-title {
     font-size: 1.5rem;
   }
@@ -26,7 +26,7 @@
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block2-images {
     height: 12.5vh;
   }
@@ -68,7 +68,7 @@
   height: 24vh;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block2-box2 {
     margin: -7rem;
   }
@@ -83,7 +83,7 @@
   margin-left: 1.2rem;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block2-box1-smallerhalf {
     margin-left: 0.4rem;
   }
@@ -93,7 +93,7 @@
   margin-right: 1.2rem;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block2-box2-smallerhalf {
     margin-right: 0.4rem;
   }
@@ -103,7 +103,7 @@
   margin-left: 1.2rem;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block2-box3-smallerhalf {
     margin-left: 0.4rem;
   }
@@ -115,9 +115,9 @@
   transition: 0.5s;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block2-box1:hover .block2-box1-smallerhalf .block2-box1:active .block2-box1-smallerhalf {
-    translate: 5rem;
+    translate: 0rem;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -129,7 +129,7 @@
   transition: 0.5s;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block2-box1:hover .block2-box1-biggerhalf .block2-box1:active .block2-box1-biggerhalf {
     translate: -8rem;
     -webkit-transition: 0.5s;
@@ -203,7 +203,7 @@
 .block5 {
   height: 100vh;
   font-size: 0.85rem;
-  background-image: url("../dist/media/block5-backgroundimage.jpg");
+  background-image: url("../media/block5-backgroundimage.jpg");
   font-family: 'Indie Flower', cursive;
 }
 
@@ -215,7 +215,7 @@
   padding: 1rem;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .vertical-boxes {
     height: 17rem;
     width: 15rem;
@@ -224,7 +224,7 @@
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block5-q1 {
     margin: 0.01rem;
   }
@@ -247,7 +247,7 @@
   margin: 2rem;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block5-box1 {
     font-size: 1rem;
   }
@@ -270,7 +270,7 @@
   margin: 2rem;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .block5-box2 {
     font-size: 1rem;
   }
@@ -305,7 +305,7 @@
   font-size: 2rem;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 375px) {
   .bl5bx {
     margin: 0.8rem;
   }

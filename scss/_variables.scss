@@ -16,7 +16,7 @@ $desktop: 2000px;
   @return map-get($colors, $color-name);
 }
 @mixin phone {
-    @media (max-width: #{$desktop}) {
+    @media (max-width: #{$phone}) {
       @content;
     }
 }

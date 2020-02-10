@@ -78,7 +78,7 @@
     transition: 0.5s;
     @include phone {
         .block2-box1:active .block2-box1-smallerhalf {
-            translate: 5rem;
+            translate: 0rem;
             transition: 0.5s;}
     }
 } 
