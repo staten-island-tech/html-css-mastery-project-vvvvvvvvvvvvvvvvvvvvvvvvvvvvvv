@@ -116,8 +116,8 @@
 }
 
 @media (max-width: 375px) {
-  .block2-box1:hover .block2-box1-smallerhalf .block2-box1:active .block2-box1-smallerhalf {
-    translate: 0rem;
+  .block2-box1:hover .block2-box1-smallerhalf {
+    translate: 0.2rem;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -130,8 +130,8 @@
 }
 
 @media (max-width: 375px) {
-  .block2-box1:hover .block2-box1-biggerhalf .block2-box1:active .block2-box1-biggerhalf {
-    translate: -8rem;
+  .block2-box1:hover .block2-box1-biggerhalf {
+    translate: -7rem;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -155,10 +155,26 @@
   transition: 0.5s;
 }
 
+@media (max-width: 375px) {
+  .block2-box3:hover .block2-box3-smallerhalf {
+    translate: 0.2rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+}
+
 .block2-box3:hover .block2-box3-biggerhalf {
   translate: -8rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media (max-width: 375px) {
+  .block2-box3:hover .block2-box3-biggerhalf {
+    translate: -7rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
 }
 
 .facts:not(hover) {
@@ -171,16 +187,41 @@
   transition: 0.6s;
 }
 
+@media (max-width: 375px) {
+  .block2-box1:hover .fact1 .block2-box1:active .fact1 {
+    opacity: 100%;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+}
+
 .fact1-container {
   width: 11rem;
   margin-top: -14.8rem;
   margin-left: 37rem;
 }
 
+@media (max-width: 375px) {
+  .fact1-container {
+    width: 7rem;
+    margin-top: -7.1rem;
+    margin-left: 26rem;
+    font-size: 0.37rem;
+  }
+}
+
 .block2-box2:hover .fact2 {
   opacity: 100%;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+}
+
+@media (max-width: 375px) {
+  .block2-box2:hover .fact2 .block2-box3:active .fact1 {
+    opacity: 100%;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
 }
 
 .fact2-container {
@@ -194,10 +235,27 @@
   transition: 0.6s;
 }
 
+@media (max-width: 375px) {
+  .block2-box3:hover .fact3 .block2-box3:active .fact1 {
+    opacity: 100%;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+}
+
 .fact3-container {
   width: 11rem;
   margin-top: -13rem;
   margin-left: 37rem;
+}
+
+@media (max-width: 375px) {
+  .fact3-container {
+    width: 7rem;
+    margin-top: -6.5rem;
+    margin-left: 18.2rem;
+    font-size: 0.37rem;
+  }
 }
 
 .block5 {
