@@ -43,6 +43,7 @@
 .block2-box1 {
    margin: 4rem;
    height: 24vh;
+   position: absolute;
 }
 
 .block2-box2 {
@@ -153,6 +154,11 @@
         transition: 0.5s;
     }
  }
+ @include phone {
+     .facts:not(hover){
+         opacity: 100%;
+     }
+ }
 @include laptop{
  .facts:not(hover){
     opacity: 0%;
@@ -171,8 +177,9 @@
 
 .fact1-container {
     width: 11rem;
-    margin-top: -14.8rem;
-    margin-left: 37rem;
+    /* margin-top: -14.8rem;
+    margin-left: 37rem; */
+    position: relative;
 }
 .block2-box2:hover .fact2{
     opacity: 100%;
@@ -181,7 +188,7 @@
 
 .fact2-container {
     width: 11rem;
-    margin-top: -15.45rem;
+    // margin-top: -15.45rem;
 }
 
 .block2-box3:hover .fact3{
@@ -191,8 +198,8 @@
 
 .fact3-container {
     width: 11rem;
-    margin-top: -13rem;
-    margin-left: 37rem;
+    /* margin-top: -13rem;
+    margin-left: 37rem; */
 }
 
 .longerimages {
@@ -214,13 +221,13 @@
     }
 }
 .block2-box1-longer{
-margin-top: -32rem;
+// margin-top: -32rem;
 }
 .block2-box2-longer{
-    margin-top: -23rem;
+    // margin-top: -23rem;
 }
 .block2-box3-longer{
-    margin-top: -14rem;
+    // margin-top: -14rem;
 }
 
 @include phone {
@@ -229,10 +236,10 @@ margin-top: -32rem;
 }
 }
 @include phone {
-    .fact3{
+    .fact1{
     z-index: 2;
-    width: 7rem;
-    margin-top: -35rem;
-    margin-left: 5rem;
+    // margin-left: 25.9rem;
+    width: 20rem;
+    // margin-top: -19rem;
    }
 }
