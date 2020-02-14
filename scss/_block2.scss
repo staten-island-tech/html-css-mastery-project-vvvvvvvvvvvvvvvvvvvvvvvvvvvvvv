@@ -1,7 +1,7 @@
 .block2-title{
     font-size: 400%;
     font-family: 'Indie Flower', cursive;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
     @include tablet {
         margin-bottom: -1rem;
     }
@@ -41,13 +41,13 @@
 }
 
 .block2-box1 {
-   margin: 4rem;
+   margin: 2rem;
    height: 24vh;
-   position: absolute;
+   position: relative;
 }
 
 .block2-box2 {
-    margin: 4rem;
+    margin: 2rem;
     height: 24vh;
     @include phone {
         margin: -7rem;
@@ -55,7 +55,7 @@
 }
 
 .block2-box3 {
-    margin: 4rem;
+    margin: 2rem;
     height: 24vh;
 }
 
@@ -175,12 +175,6 @@
     transition: 0.6s;
 }
 
-.fact1-container {
-    width: 11rem;
-    /* margin-top: -14.8rem;
-    margin-left: 37rem; */
-    position: relative;
-}
 .block2-box2:hover .fact2{
     opacity: 100%;
     transition: 0.6s;
@@ -235,11 +229,8 @@
   font-size: 0.7rem;  
 }
 }
-@include phone {
-    .fact1{
-    z-index: 2;
-    // margin-left: 25.9rem;
-    width: 20rem;
-    // margin-top: -19rem;
-   }
+.fact1-container {
+    right: 1%;
+    width: 11rem;
+    position: absolute;
 }
