@@ -362,6 +362,22 @@
   }
 }
 
+.block3 {
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.block3-images {
+  position: relative;
+}
+
+.block3-collage {
+  position: absolute;
+}
+
 .block5 {
   height: 100vh;
   font-size: 0.85rem;
