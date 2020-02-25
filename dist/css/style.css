@@ -363,19 +363,94 @@
 }
 
 .block3 {
-  height: 95vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
+  height: 100vh;
+  margin-bottom: 5rem;
+  background-image: url(../media/icecreamcollage1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.block3-images {
-  position: relative;
+.block3 {
+  -webkit-animation-name: flashingimages;
+          animation-name: flashingimages;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
-.block3-collage {
-  position: absolute;
+@-webkit-keyframes flashingimages {
+  100% {
+    background-image: url(../media/icecreamcollage1.jpg);
+  }
+  10% {
+    background-image: url(../media/icecreamcollage2.jpg);
+  }
+  19% {
+    background-image: url(../media/icecreamcollage3.jpg);
+  }
+  28% {
+    background-image: url(../media/icecreamcollage4.jpg);
+  }
+  37% {
+    background-image: url(../media/icecreamcollage5.jpg);
+  }
+  46% {
+    background-image: url(../media/icecreamcollage6.jpg);
+  }
+  55% {
+    background-image: url(../media/icecreamcollage7.jpg);
+  }
+  64% {
+    background-image: url(../media/icecreamcollage8.jpg);
+  }
+  73% {
+    background-image: url(../media/icecreamcollage9.jpg);
+  }
+  82% {
+    background-image: url(../media/icecreamcollage10.jpg);
+  }
+  91% {
+    background-image: url(../media/icecreamcollage11.jpg);
+  }
+}
+
+@keyframes flashingimages {
+  100% {
+    background-image: url(../media/icecreamcollage1.jpg);
+  }
+  10% {
+    background-image: url(../media/icecreamcollage2.jpg);
+  }
+  19% {
+    background-image: url(../media/icecreamcollage3.jpg);
+  }
+  28% {
+    background-image: url(../media/icecreamcollage4.jpg);
+  }
+  37% {
+    background-image: url(../media/icecreamcollage5.jpg);
+  }
+  46% {
+    background-image: url(../media/icecreamcollage6.jpg);
+  }
+  55% {
+    background-image: url(../media/icecreamcollage7.jpg);
+  }
+  64% {
+    background-image: url(../media/icecreamcollage8.jpg);
+  }
+  73% {
+    background-image: url(../media/icecreamcollage9.jpg);
+  }
+  82% {
+    background-image: url(../media/icecreamcollage10.jpg);
+  }
+  91% {
+    background-image: url(../media/icecreamcollage11.jpg);
+  }
 }
 
 .block5 {
