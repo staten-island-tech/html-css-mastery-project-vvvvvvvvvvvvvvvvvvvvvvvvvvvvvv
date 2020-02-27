@@ -18,7 +18,8 @@
     }
     
     @keyframes flashingimages {
-     100% {background-image: url(../media/icecreamcollage1.jpg), url(../media/icecreamcollage2.jpg);}
+    //  0% {: backgroundurl(../media/icecreamcollage1.jpg);}
+     1% {background-image: url(../media/icecreamcollage1.jpg), url(../media/icecreamcollage2.jpg);}
      10% {background-image: url(../media/icecreamcollage2.jpg), url(../media/icecreamcollage3.jpg);}
      19% {background-image: url(../media/icecreamcollage3.jpg), url(../media/icecreamcollage4.jpg);}
      28% {background-image: url(../media/icecreamcollage4.jpg), url(../media/icecreamcollage5.jpg);}
@@ -30,3 +31,11 @@
      82% {background-image: url(../media/icecreamcollage10.jpg), url(../media/icecreamcollage11.jpg);}     
      91% {background-image: url(../media/icecreamcollage11.jpg), url(../media/icecreamcollage1.jpg);}
     }
+.banner {
+    height: 45rem;
+    position: absolute;
+    top: 7rem;
+}
+.block1-item {
+    position: relative;
+}

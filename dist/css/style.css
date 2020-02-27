@@ -389,7 +389,7 @@
 }
 
 @-webkit-keyframes flashingimages {
-  100% {
+  1% {
     background-image: url(../media/icecreamcollage1.jpg), url(../media/icecreamcollage2.jpg);
   }
   10% {
@@ -425,7 +425,7 @@
 }
 
 @keyframes flashingimages {
-  100% {
+  1% {
     background-image: url(../media/icecreamcollage1.jpg), url(../media/icecreamcollage2.jpg);
   }
   10% {
@@ -458,6 +458,16 @@
   91% {
     background-image: url(../media/icecreamcollage11.jpg), url(../media/icecreamcollage1.jpg);
   }
+}
+
+.banner {
+  height: 45rem;
+  position: absolute;
+  top: 7rem;
+}
+
+.block1-item {
+  position: relative;
 }
 
 .block5 {
