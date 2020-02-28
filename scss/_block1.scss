@@ -18,7 +18,6 @@
     }
     
     @keyframes flashingimages {
-    //  0% {: backgroundurl(../media/icecreamcollage1.jpg);}
      1% {background-image: url(../media/icecreamcollage1.jpg), url(../media/icecreamcollage2.jpg);}
      10% {background-image: url(../media/icecreamcollage2.jpg), url(../media/icecreamcollage3.jpg);}
      19% {background-image: url(../media/icecreamcollage3.jpg), url(../media/icecreamcollage4.jpg);}

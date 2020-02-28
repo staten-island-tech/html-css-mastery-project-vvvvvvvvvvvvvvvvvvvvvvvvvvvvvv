@@ -1,0 +1,16 @@
+.block4 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.map {
+    width: 95vh;
+    position: relative;
+}
+.pins {
+    height: 5rem;
+}
+.pin1 {
+   position: absolute;
+   z-index: 2;
+}
