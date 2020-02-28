@@ -2,15 +2,21 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 .map {
-    width: 95vh;
+    height:65vh;
     position: relative;
 }
 .pins {
     height: 5rem;
+    position: absolute;
+    z-index: 2;
 }
 .pin1 {
-   position: absolute;
-   z-index: 2;
+   left: 23%;
+}
+.pin2{
+  left: 29%;
+//   bottom: 15%;
 }

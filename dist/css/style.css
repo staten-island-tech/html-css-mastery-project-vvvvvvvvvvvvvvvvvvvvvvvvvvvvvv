@@ -99,7 +99,7 @@
 .banner {
   height: 45rem;
   position: absolute;
-  top: 7rem;
+  top: 5rem;
 }
 
 .block1-item {
@@ -478,20 +478,28 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .map {
-  width: 95vh;
+  height: 65vh;
   position: relative;
 }
 
 .pins {
   height: 5rem;
+  position: absolute;
+  z-index: 2;
 }
 
 .pin1 {
-  position: absolute;
-  z-index: 2;
+  left: 23%;
+}
+
+.pin2 {
+  left: 29%;
 }
 
 .block5 {
@@ -611,6 +619,7 @@ body {
   padding: 0%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 100vw;
 }
 
 /* clipPath: polygon{
