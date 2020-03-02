@@ -28,9 +28,13 @@
     top: 6.25rem;
     left: 32.25rem;
 }
-.pin2-both {
+.pin2 {
     top: 19rem;
     left: 25rem;
+}
+.pin2-big {
+    top: 18.25rem;
+    left: 24.25rem;
 }
 .pin3-both {
     top: 23rem;
@@ -47,6 +51,9 @@
 .pin1-big:hover{
     opacity: 50%;
 }
-.pin1-big:hover{
-    
+.pin2-big:not(hover) {
+    opacity: 0%;
+}
+.pin2-big:hover{
+    opacity: 50%;
 }
