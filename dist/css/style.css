@@ -501,17 +501,22 @@
 .pins {
   height: 5rem;
   position: absolute;
-  z-index: 3;
+  z-index: 2;
 }
 
 .big-pins {
-  z-index: 2;
-  height: 6rem;
+  z-index: 3;
+  height: 6.5rem;
 }
 
-.pin1-both {
+.pin1 {
   top: 7rem;
   left: 33rem;
+}
+
+.pin1-big {
+  top: 6.25rem;
+  left: 32.25rem;
 }
 
 .pin2-both {
@@ -529,7 +534,7 @@
   left: 17rem;
 }
 
-.big-pins :not(hover) {
+.pin1-big:not(hover) {
   opacity: 0%;
 }
 
