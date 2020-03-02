@@ -1,22 +1,45 @@
 .block4 {
     height: 100vh;
     display: flex;
-    align-items: center;
+   margin: 2rem;
     justify-content: flex-start;
 }
-.map {
-    height:65vh;
+.interactive-map {
     position: relative;
+}
+.map {
+    height:85vh;
+    position: absolute;
 }
 .pins {
     height: 5rem;
     position: absolute;
+    z-index: 3;
+}
+.big-pins {
     z-index: 2;
+    height: 6rem;
 }
-.pin1 {
-   left: 23%;
+.pin1-both {
+    top: 7rem;
+    left: 33rem;
 }
-.pin2{
-  left: 29%;
-//   bottom: 15%;
+.pin2-both {
+    top: 19rem;
+    left: 25rem;
+}
+.pin3-both {
+    top: 23rem;
+    left: 45rem;
+}
+.pin4-both {
+    top: 30rem;
+    left: 17rem;
+}
+
+.big-pins :not(hover) {
+    opacity: 0%;
+}
+.pin1-big:hover{
+    opacity: 50%;
 }
