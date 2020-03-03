@@ -8,7 +8,7 @@
     position: relative;
 }
 .map {
-    height:85vh;
+    height:89vh;
     position: absolute;
 }
 .pins {
@@ -29,20 +29,28 @@
     left: 32.25rem;
 }
 .pin2 {
-    top: 19rem;
-    left: 25rem;
+    top: 20rem;
+    left: 27rem;
 }
 .pin2-big {
-    top: 18.25rem;
-    left: 24.25rem;
+    top: 19.25rem;
+    left: 26.25rem;
 }
-.pin3-both {
+.pin3 {
     top: 23rem;
     left: 45rem;
 }
-.pin4-both {
+.pin3-big {
+    top: 22.25rem;
+    left: 44.25rem;
+}
+.pin4 {
     top: 30rem;
     left: 17rem;
+}
+.pin4-big {
+    top: 29.25rem;
+    left: 16.25rem;
 }
 
 .pin1-big:not(hover) {
@@ -50,10 +58,44 @@
 }
 .pin1-big:hover{
     opacity: 50%;
+    z-index: 1;
 }
 .pin2-big:not(hover) {
     opacity: 0%;
 }
 .pin2-big:hover{
     opacity: 50%;
+}
+.pin3-big:not(hover) {
+    opacity: 0%;
+}
+.pin3-big:hover{
+    opacity: 50%;
+}
+.pin4-big:not(hover) {
+    opacity: 0%;
+}
+.pin4-big:hover{
+    opacity: 50%;
+}
+
+.pin1-info {
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+flex-direction: column;
+width: 94vw;
+}
+.pin1-image {
+    height: 40rem;
+}
+.pin1-text {
+    width: 53rem;
+}
+
+.pin1:hover .pin1-info{
+opacity: 100%;
+}
+.pin1-info :not(hover){
+    opacity: 0%;
 }
