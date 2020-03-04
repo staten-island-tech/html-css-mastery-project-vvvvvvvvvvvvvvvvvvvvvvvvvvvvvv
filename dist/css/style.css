@@ -100,7 +100,6 @@
   height: 45rem;
   position: absolute;
   top: 5rem;
-  background-attachment: fixed;
 }
 
 @media (max-width: 420px) {
@@ -607,11 +606,11 @@
   width: 53rem;
 }
 
-.pin1:hover .pin1-info {
+.pin1:hover ~ .pin1-imagetext {
   opacity: 100%;
 }
 
-.pin1-info :not(hover) {
+.pin1:not(hover) ~ .pin1-imagetext {
   opacity: 0%;
 }
 

@@ -93,9 +93,9 @@ width: 94vw;
     width: 53rem;
 }
 
-.pin1:hover .pin1-info{
+.pin1:hover~.pin1-imagetext{
 opacity: 100%;
 }
-.pin1-info :not(hover){
+.pin1:not(hover)~.pin1-imagetext{
     opacity: 0%;
 }
