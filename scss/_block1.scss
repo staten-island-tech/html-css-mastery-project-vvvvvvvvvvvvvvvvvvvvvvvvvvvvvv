@@ -5,19 +5,23 @@
     background-repeat: no-repeat;
     background-size: 100%;
     @include phone {
-        height: 26vh;
+        background-image: url(../media/icecreamcollage1-phone.jpg);
         margin-bottom: 1.75rem;
     }
 }
 
 .block1 {
-    animation-name: flashingimages;
+    animation-name: flashingimages-desktop;
     animation-duration: 8s;
     animation-iteration-count: infinite;
     transition: .3s;
+    @include phone {
+        animation-name: flashingimages-phone;
+        height: 100vh;
+    }
     }
     
-    @keyframes flashingimages {
+    @keyframes flashingimages-desktop {
      1% {background-image: url(../media/icecreamcollage1.jpg), url(../media/icecreamcollage2.jpg);}
      10% {background-image: url(../media/icecreamcollage2.jpg), url(../media/icecreamcollage3.jpg);}
      19% {background-image: url(../media/icecreamcollage3.jpg), url(../media/icecreamcollage4.jpg);}
@@ -30,6 +34,20 @@
      82% {background-image: url(../media/icecreamcollage10.jpg), url(../media/icecreamcollage11.jpg);}     
      91% {background-image: url(../media/icecreamcollage11.jpg), url(../media/icecreamcollage1.jpg);}
     }
+    @keyframes flashingimages-phone {
+        1% {background-image: url(../media/icecreamcollage1-phone.jpg), url(../media/icecreamcollage2-phone.jpg);}
+        10% {background-image: url(../media/icecreamcollage2-phone.jpg), url(../media/icecreamcollage3-phone.jpg);}
+        19% {background-image: url(../media/icecreamcollage3-phone.jpg), url(../media/icecreamcollage4-phone.jpg);}
+        28% {background-image: url(../media/icecreamcollage4-phone.jpg), url(../media/icecreamcollage5-phone.jpg);}
+        37% {background-image: url(../media/icecreamcollage5-phone.jpg), url(../media/icecreamcollage6-phone.jpg);}
+        46% {background-image: url(../media/icecreamcollage6-phone.jpg), url(../media/icecreamcollage7-phone.jpg);}
+        55% {background-image: url(../media/icecreamcollage7-phone.jpg), url(../media/icecreamcollage8-phone.jpg);}
+        64% {background-image: url(../media/icecreamcollage8-phone.jpg), url(../media/icecreamcollage9-phone.jpg);}
+        73% {background-image: url(../media/icecreamcollage9-phone.jpg), url(../media/icecreamcollage10-phone.jpg);}
+        82% {background-image: url(../media/icecreamcollage10-phone.jpg), url(../media/icecreamcollage11-phone.jpg);}     
+        91% {background-image: url(../media/icecreamcollage11-phone.jpg), url(../media/icecreamcollage1-phone.jpg);}
+       }
+
 .banner {
     height: 45rem;
     position: absolute;
