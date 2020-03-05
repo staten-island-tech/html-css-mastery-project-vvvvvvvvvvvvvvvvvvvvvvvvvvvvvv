@@ -88,14 +88,16 @@ width: 94vw;
 }
 .pin1-image {
     height: 40rem;
+    opacity: 0%;
 }
 .pin1-text {
     width: 53rem;
-}
-
-.pin1:hover~.pin1-imagetext{
-opacity: 100%;
-}
-.pin1:not(hover)~.pin1-imagetext{
     opacity: 0%;
 }
+
+.pin1:hover .pin1-imagetext{
+opacity: 100%;
+}
+/* .pin1:not(hover)~.pin1-imagetext{
+    opacity: 0%;
+} */
