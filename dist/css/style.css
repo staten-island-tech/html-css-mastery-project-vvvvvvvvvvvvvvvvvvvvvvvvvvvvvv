@@ -747,8 +747,8 @@
   opacity: 0%;
 }
 
-.pin1-big:hover {
-  opacity: 50%;
+.pin1-both:hover ~ .pin1-big {
+  opacity: 100%;
   z-index: 1;
 }
 
@@ -803,7 +803,7 @@
   opacity: 0%;
 }
 
-.pin1:hover .pin1-imagetext {
+.pin1-both:hover ~ .pin1-imagetext {
   opacity: 100%;
 }
 

@@ -56,8 +56,8 @@
 .pin1-big:not(hover) {
     opacity: 0%;
 }
-.pin1-big:hover{
-    opacity: 50%;
+.pin1-both:hover ~ .pin1-big{
+    opacity: 100%;
     z-index: 1;
 }
 .pin2-big:not(hover) {
@@ -95,7 +95,7 @@ width: 94vw;
     opacity: 0%;
 }
 
-.pin1:hover .pin1-imagetext{
+.pin1-both:hover ~ .pin1-imagetext{
 opacity: 100%;
 }
 /* .pin1:not(hover)~.pin1-imagetext{
