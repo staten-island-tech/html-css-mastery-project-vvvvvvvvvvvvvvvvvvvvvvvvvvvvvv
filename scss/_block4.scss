@@ -98,6 +98,77 @@ width: 94vw;
 .pin1-both:hover ~ .pin1-imagetext{
 opacity: 100%;
 }
-/* .pin1:not(hover)~.pin1-imagetext{
+.pin2-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 94vw;
+    }
+    .pin2-image {
+    height: 37rem;
     opacity: 0%;
-} */
+    z-index: 3;
+    position: absolute;
+    top: 1rem;
+    right: -2rem;
+    }
+    .pin2-text {
+        width: 53rem;
+        opacity: 0%;
+        position: absolute;
+        right: -1rem;
+    }
+    
+    .pin2-both:hover ~ .pin2-imagetext{
+    opacity: 100%;
+    }
+    .pin3-info {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+        width: 94vw;
+        }
+        .pin3-image {
+        height: 40rem;
+        opacity: 0%;
+        z-index: 3;
+        position: absolute;
+        top: 0rem;
+        right: -0.5rem;
+        }
+        .pin3-text {
+            width: 53rem;
+            opacity: 0%;
+            position: absolute;
+        }
+        
+        .pin3-both:hover ~ .pin3-imagetext{
+        opacity: 100%;
+        }
+        .pin4-info {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            flex-direction: column;
+            width: 94vw;
+            }
+            .pin4-image {
+            height: 40rem;
+            opacity: 0%;
+            z-index: 3;
+            position: absolute;
+            top: 0rem;
+            right: -3rem;
+            }
+            .pin4-text {
+                width: 56rem;
+                opacity: 0%;
+                position: absolute;
+                right: -3rem;
+            }
+            
+            .pin4-both:hover ~ .pin4-imagetext{
+            opacity: 100%;
+            }

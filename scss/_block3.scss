@@ -1,0 +1,14 @@
+.block3 {
+    height: 100vh;
+    margin: 1rem;
+}
+.carouselimages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.carouselimg {
+    height: 100vh;
+    position: absolute;
+}
