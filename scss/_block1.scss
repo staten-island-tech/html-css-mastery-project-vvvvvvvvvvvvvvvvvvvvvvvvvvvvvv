@@ -1,108 +1,206 @@
-.block1{
-   height: 100vh;
-    background-image: url(../media/icecreamcollage1.jpg);
-    background-repeat: no-repeat;
-    margin-bottom: 14rem;
-    background-size: cover;
-    @include tablet {
-        background-image: url(../media/icecreamcollage1-tablet.jpg);
-        height: 150vh;
-        width: 143vw;
-        margin-top: 0rem;
-    }
-    @include phone {
-        background-image: url(../media/icecreamcollage1-phone.jpg);
-        margin-bottom: 1.75rem;
-        margin-top: 0rem;
-        height: 100vh;
-        width: 100vw;
-    }
-    
+.block1 {
+  height: 100vh;
+  background-image: url(../media/icecreamcollage1.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 14rem;
+  background-size: cover;
+  @include tablet {
+    background-image: url(../media/icecreamcollage1-tablet.jpg);
+    height: 150vh;
+    width: 143vw;
+    margin-top: 0rem;
+  }
+  @include phone {
+    background-image: url(../media/icecreamcollage1-phone.jpg);
+    margin-bottom: 1.75rem;
+    margin-top: 0rem;
+    height: 100vh;
+    width: 100vw;
+  }
 }
 
 .block1 {
-    animation-name: flashingimages-desktop;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    transition: .3s;
-    @include tablet {
-        animation-name: flashingimages-tablet;
-    }
-    @include phone {
-        animation-name: flashingimages-phone;
-        height: 100vh;
-    }
-    }
-    
-    @keyframes flashingimages-desktop {
-     1% {background-image: url(../media/icecreamcollage1.jpg), url(../media/icecreamcollage2.jpg);}
-     10% {background-image: url(../media/icecreamcollage2.jpg), url(../media/icecreamcollage3.jpg);}
-     19% {background-image: url(../media/icecreamcollage3.jpg), url(../media/icecreamcollage4.jpg);}
-     28% {background-image: url(../media/icecreamcollage4.jpg), url(../media/icecreamcollage5.jpg);}
-     37% {background-image: url(../media/icecreamcollage5.jpg), url(../media/icecreamcollage6.jpg);}
-     46% {background-image: url(../media/icecreamcollage6.jpg), url(../media/icecreamcollage7.jpg);}
-     55% {background-image: url(../media/icecreamcollage7.jpg), url(../media/icecreamcollage8.jpg);}
-     64% {background-image: url(../media/icecreamcollage8.jpg), url(../media/icecreamcollage9.jpg);}
-     73% {background-image: url(../media/icecreamcollage9.jpg), url(../media/icecreamcollage10.jpg);}
-     82% {background-image: url(../media/icecreamcollage10.jpg), url(../media/icecreamcollage11.jpg);}     
-     91% {background-image: url(../media/icecreamcollage11.jpg), url(../media/icecreamcollage1.jpg);}
-    }
-    @keyframes flashingimages-phone {
-        1% {background-image: url(../media/icecreamcollage1-phone.jpg), url(../media/icecreamcollage2-phone.jpg);}
-        10% {background-image: url(../media/icecreamcollage2-phone.jpg), url(../media/icecreamcollage3-phone.jpg);}
-        19% {background-image: url(../media/icecreamcollage3-phone.jpg), url(../media/icecreamcollage4-phone.jpg);}
-        28% {background-image: url(../media/icecreamcollage4-phone.jpg), url(../media/icecreamcollage5-phone.jpg);}
-        37% {background-image: url(../media/icecreamcollage5-phone.jpg), url(../media/icecreamcollage6-phone.jpg);}
-        46% {background-image: url(../media/icecreamcollage6-phone.jpg), url(../media/icecreamcollage7-phone.jpg);}
-        55% {background-image: url(../media/icecreamcollage7-phone.jpg), url(../media/icecreamcollage8-phone.jpg);}
-        64% {background-image: url(../media/icecreamcollage8-phone.jpg), url(../media/icecreamcollage9-phone.jpg);}
-        73% {background-image: url(../media/icecreamcollage9-phone.jpg), url(../media/icecreamcollage10-phone.jpg);}
-        82% {background-image: url(../media/icecreamcollage10-phone.jpg), url(../media/icecreamcollage11-phone.jpg);}     
-        91% {background-image: url(../media/icecreamcollage11-phone.jpg), url(../media/icecreamcollage1-phone.jpg);}
-       }
-       @keyframes flashingimages-tablet {
-        1% {background-image: url(../media/icecreamcollage1-tablet.jpg), url(../media/icecreamcollage2-tablet.jpg);}
-        10% {background-image: url(../media/icecreamcollage2-tablet.jpg), url(../media/icecreamcollage3-tablet.jpg);}
-        19% {background-image: url(../media/icecreamcollage3-tablet.jpg), url(../media/icecreamcollage4-tablet.jpg);}
-        28% {background-image: url(../media/icecreamcollage4-tablet.jpg), url(../media/icecreamcollage5-tablet.jpg);}
-        37% {background-image: url(../media/icecreamcollage5-tablet.jpg), url(../media/icecreamcollage6-tablet.jpg);}
-        46% {background-image: url(../media/icecreamcollage6-tablet.jpg), url(../media/icecreamcollage7-tablet.jpg);}
-        55% {background-image: url(../media/icecreamcollage7-tablet.jpg), url(../media/icecreamcollage8-tablet.jpg);}
-        64% {background-image: url(../media/icecreamcollage8-tablet.jpg), url(../media/icecreamcollage9-tablet.jpg);}
-        73% {background-image: url(../media/icecreamcollage9-tablet.jpg), url(../media/icecreamcollage10-tablet.jpg);}
-        82% {background-image: url(../media/icecreamcollage10-tablet.jpg), url(../media/icecreamcollage11-tablet.jpg);}     
-        91% {background-image: url(../media/icecreamcollage11-tablet.jpg), url(../media/icecreamcollage1-tablet.jpg);}
-       }
-.banner {
-    height: 45rem;
-    position: absolute;
-    top: 5rem;
-    left: -2rem;
-    width: 0vw;
-     @include tablet {
-         opacity: 0%;
-     }
+  animation-name: flashingimages-desktop;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  transition: 0.3s;
+  @include tablet {
+    animation-name: flashingimages-tablet;
+  }
+  @include phone {
+    animation-name: flashingimages-phone;
+    height: 100vh;
+  }
 }
- .mobilebanner {
+
+@keyframes flashingimages-desktop {
+  1% {
+    background-image: url(../media/icecreamcollage1.jpg),
+      url(../media/icecreamcollage2.jpg);
+  }
+  10% {
+    background-image: url(../media/icecreamcollage2.jpg),
+      url(../media/icecreamcollage3.jpg);
+  }
+  19% {
+    background-image: url(../media/icecreamcollage3.jpg),
+      url(../media/icecreamcollage4.jpg);
+  }
+  28% {
+    background-image: url(../media/icecreamcollage4.jpg),
+      url(../media/icecreamcollage5.jpg);
+  }
+  37% {
+    background-image: url(../media/icecreamcollage5.jpg),
+      url(../media/icecreamcollage6.jpg);
+  }
+  46% {
+    background-image: url(../media/icecreamcollage6.jpg),
+      url(../media/icecreamcollage7.jpg);
+  }
+  55% {
+    background-image: url(../media/icecreamcollage7.jpg),
+      url(../media/icecreamcollage8.jpg);
+  }
+  64% {
+    background-image: url(../media/icecreamcollage8.jpg),
+      url(../media/icecreamcollage9.jpg);
+  }
+  73% {
+    background-image: url(../media/icecreamcollage9.jpg),
+      url(../media/icecreamcollage10.jpg);
+  }
+  82% {
+    background-image: url(../media/icecreamcollage10.jpg),
+      url(../media/icecreamcollage11.jpg);
+  }
+  91% {
+    background-image: url(../media/icecreamcollage11.jpg),
+      url(../media/icecreamcollage1.jpg);
+  }
+}
+@keyframes flashingimages-phone {
+  1% {
+    background-image: url(../media/icecreamcollage1-phone.jpg),
+      url(../media/icecreamcollage2-phone.jpg);
+  }
+  10% {
+    background-image: url(../media/icecreamcollage2-phone.jpg),
+      url(../media/icecreamcollage3-phone.jpg);
+  }
+  19% {
+    background-image: url(../media/icecreamcollage3-phone.jpg),
+      url(../media/icecreamcollage4-phone.jpg);
+  }
+  28% {
+    background-image: url(../media/icecreamcollage4-phone.jpg),
+      url(../media/icecreamcollage5-phone.jpg);
+  }
+  37% {
+    background-image: url(../media/icecreamcollage5-phone.jpg),
+      url(../media/icecreamcollage6-phone.jpg);
+  }
+  46% {
+    background-image: url(../media/icecreamcollage6-phone.jpg),
+      url(../media/icecreamcollage7-phone.jpg);
+  }
+  55% {
+    background-image: url(../media/icecreamcollage7-phone.jpg),
+      url(../media/icecreamcollage8-phone.jpg);
+  }
+  64% {
+    background-image: url(../media/icecreamcollage8-phone.jpg),
+      url(../media/icecreamcollage9-phone.jpg);
+  }
+  73% {
+    background-image: url(../media/icecreamcollage9-phone.jpg),
+      url(../media/icecreamcollage10-phone.jpg);
+  }
+  82% {
+    background-image: url(../media/icecreamcollage10-phone.jpg),
+      url(../media/icecreamcollage11-phone.jpg);
+  }
+  91% {
+    background-image: url(../media/icecreamcollage11-phone.jpg),
+      url(../media/icecreamcollage1-phone.jpg);
+  }
+}
+@keyframes flashingimages-tablet {
+  1% {
+    background-image: url(../media/icecreamcollage1-tablet.jpg),
+      url(../media/icecreamcollage2-tablet.jpg);
+  }
+  10% {
+    background-image: url(../media/icecreamcollage2-tablet.jpg),
+      url(../media/icecreamcollage3-tablet.jpg);
+  }
+  19% {
+    background-image: url(../media/icecreamcollage3-tablet.jpg),
+      url(../media/icecreamcollage4-tablet.jpg);
+  }
+  28% {
+    background-image: url(../media/icecreamcollage4-tablet.jpg),
+      url(../media/icecreamcollage5-tablet.jpg);
+  }
+  37% {
+    background-image: url(../media/icecreamcollage5-tablet.jpg),
+      url(../media/icecreamcollage6-tablet.jpg);
+  }
+  46% {
+    background-image: url(../media/icecreamcollage6-tablet.jpg),
+      url(../media/icecreamcollage7-tablet.jpg);
+  }
+  55% {
+    background-image: url(../media/icecreamcollage7-tablet.jpg),
+      url(../media/icecreamcollage8-tablet.jpg);
+  }
+  64% {
+    background-image: url(../media/icecreamcollage8-tablet.jpg),
+      url(../media/icecreamcollage9-tablet.jpg);
+  }
+  73% {
+    background-image: url(../media/icecreamcollage9-tablet.jpg),
+      url(../media/icecreamcollage10-tablet.jpg);
+  }
+  82% {
+    background-image: url(../media/icecreamcollage10-tablet.jpg),
+      url(../media/icecreamcollage11-tablet.jpg);
+  }
+  91% {
+    background-image: url(../media/icecreamcollage11-tablet.jpg),
+      url(../media/icecreamcollage1-tablet.jpg);
+  }
+}
+.banner {
+  height: 45rem;
+  position: absolute;
+  top: 5rem;
+  left: -2rem;
+  width: 112vw;
+  @include tablet {
     opacity: 0%;
-    width: 0vw;
-    @include tablet {
-        opacity: 100%;
-        height:80rem;
-        position: absolute;
-        bottom: 1rem;
-        left: -11rem;
-    }
-    @include phone {
-        opacity: 100%;
-        height:30rem;
-        position: absolute;
-        left:-5rem;
-        bottom: 15rem; 
-        
-    }
-    
-} 
+  }
+}
+.mobilebanner {
+  opacity: 0%;
+  width: 0vw;
+  @include tablet {
+    opacity: 100%;
+    height: 100rem;
+    width: 100rem;
+    position: absolute;
+    bottom: 1rem;
+    left: -11rem;
+  }
+  @include phone {
+    opacity: 100%;
+    height: 29rem;
+    position: absolute;
+    left: -5rem;
+    bottom: 15rem;
+    width: 29rem;
+  }
+}
 .block1-item {
-    position: relative;
+  position: relative;
 }

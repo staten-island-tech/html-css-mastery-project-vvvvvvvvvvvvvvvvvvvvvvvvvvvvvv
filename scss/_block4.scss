@@ -1,211 +1,237 @@
 .block4 {
-    height: 100vh;
-    display: flex;
-   margin: 2rem;
-    justify-content: flex-start;
-    @include phone {
-        margin: 0rem;
-    }
+  height: auto;
+  display: flex;
+  margin: 2rem;
+  justify-content: flex-start;
+  @include phone {
+    margin: 0rem;
+  }
 }
 .interactive-map {
-    position: relative;
+  position: relative;
 }
 .map {
-    height:89vh;
-    position: absolute;
- @include phone {
-     height: 44vh;
- }
-
+  height: 89vh;
+  position: absolute;
+  @include phone {
+    height: 44vh;
+  }
 }
 .map-parent {
-height: 44vh;
+  height: 44vh;
+}
+
+.allpins {
+  @include phone {
+    height: 100vh;
+  }
 }
 .pins {
-    height: 5rem;
-    position: absolute;
-    z-index: 2;
-    @include phone {
-        height:2rem;
-    }
+  height: 5rem;
+  position: absolute;
+  z-index: 2;
+  @include phone {
+    height: 2rem;
+  }
 }
 .big-pins {
-    z-index: 3;
-    height: 6.5rem;
+  z-index: 3;
+  height: 6.5rem;
 }
 .pin1 {
-    top: 7rem;
-    left: 33rem;
-    @include phone {
-        top: 2rem;
-        left: 14.5rem;
-    }
+  top: 7rem;
+  left: 33rem;
+  @include phone {
+    top: 2rem;
+    left: 14.5rem;
+  }
 }
 .pin1-big {
-    top: 6.25rem;
-    left: 32.25rem;
+  top: 6.25rem;
+  left: 32.25rem;
 }
 .pin2 {
-    top: 20rem;
-    left: 27rem;
-    @include phone {
-        top: 8rem;
-        left: 11.5rem;
-    }
+  top: 20rem;
+  left: 27rem;
+  @include phone {
+    top: 8rem;
+    left: 11.5rem;
+  }
 }
 .pin2-big {
-    top: 19.25rem;
-    left: 26.25rem;
+  top: 19.25rem;
+  left: 26.25rem;
 }
 .pin3 {
-    top: 23rem;
-    left: 45rem;
-    @include phone {
-        top: 9.8rem;
-        left: 19rem;
-    }
+  top: 23rem;
+  left: 45rem;
+  @include phone {
+    top: 9.8rem;
+    left: 19rem;
+  }
 }
 .pin3-big {
-    top: 22.25rem;
-    left: 44.25rem;
+  top: 22.25rem;
+  left: 44.25rem;
 }
 .pin4 {
-    top: 32rem;
-    left: 17rem;
-    @include phone {
-        top: 13.5rem;
-        left: 7rem;
-    }
+  top: 32rem;
+  left: 17rem;
+  @include phone {
+    top: 13.5rem;
+    left: 7rem;
+  }
 }
 .pin4-big {
-    top: 31.25rem;
-    left: 16.25rem;
+  top: 31.25rem;
+  left: 16.25rem;
 }
 
 .pin1-big:not(hover) {
-    opacity: 0%;
+  opacity: 0%;
 }
-.pin1-both:hover ~ .pin1-big{
-    opacity: 100%;
-    z-index: 1;
+.pin1-both:hover ~ .pin1-big {
+  opacity: 100%;
+  z-index: 1;
 }
 .pin2-big:not(hover) {
-    opacity: 0%;
+  opacity: 0%;
 }
-.pin2-big:hover{
-    opacity: 50%;
+.pin2-big:hover {
+  opacity: 50%;
 }
 .pin3-big:not(hover) {
-    opacity: 0%;
+  opacity: 0%;
 }
-.pin3-big:hover{
-    opacity: 50%;
+.pin3-big:hover {
+  opacity: 50%;
 }
 .pin4-big:not(hover) {
-    opacity: 0%;
+  opacity: 0%;
 }
-.pin4-big:hover{
-    opacity: 50%;
+.pin4-big:hover {
+  opacity: 50%;
 }
 
 .pin1-info {
-display: flex;
-align-items: flex-end;
-justify-content: flex-end;
-flex-direction: column;
-width: 94vw;
-@include phone {
-    align-items: flex-end;
-    justify-content: flex-end;
-}
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 94vw;
+  @include phone {
+    align-items: center;
+  }
 }
 .pin1-image {
-    height: 40rem;
-    opacity: 0%;
-    @include phone {
-        opacity: 100%;
-        height: 25rem;
-    }
+  height: 40rem;
+  opacity: 0%;
+  @include phone {
+    opacity: 100%;
+    height: 23rem;
+    margin: 1rem;
+  }
 }
 .pin1-text {
-    width: 53rem;
-    opacity: 0%;
+  width: 53rem;
+  opacity: 0%;
 }
 
-.pin1-both:hover ~ .pin1-imagetext{
-opacity: 100%;
+.pin1-both:hover ~ .pin1-imagetext {
+  opacity: 100%;
 }
 .pin2-info {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-direction: column;
-    width: 94vw;
-    }
-    .pin2-image {
-    height: 37rem;
-    opacity: 0%;
-    z-index: 3;
-    position: absolute;
-    top: 1rem;
-    right: -2rem;
-    }
-    .pin2-text {
-        width: 53rem;
-        opacity: 0%;
-        position: absolute;
-        right: -1rem;
-    }
-    
-    .pin2-both:hover ~ .pin2-imagetext{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 94vw;
+}
+.pin2-image {
+  height: 37rem;
+  opacity: 0%;
+  z-index: 3;
+  position: absolute;
+  top: 1rem;
+  right: -2rem;
+  @include phone {
     opacity: 100%;
-    }
-    .pin3-info {
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
-        flex-direction: column;
-        width: 94vw;
-        }
-        .pin3-image {
-        height: 40rem;
-        opacity: 0%;
-        z-index: 3;
-        position: absolute;
-        top: 0rem;
-        right: -0.5rem;
-        }
-        .pin3-text {
-            width: 53rem;
-            opacity: 0%;
-            position: absolute;
-        }
-        
-        .pin3-both:hover ~ .pin3-imagetext{
-        opacity: 100%;
-        }
-        .pin4-info {
-            display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;
-            flex-direction: column;
-            width: 94vw;
-            }
-            .pin4-image {
-            height: 40rem;
-            opacity: 0%;
-            z-index: 3;
-            position: absolute;
-            top: 0rem;
-            right: -3rem;
-            }
-            .pin4-text {
-                width: 56rem;
-                opacity: 0%;
-                position: absolute;
-                right: -3rem;
-            }
-            
-            .pin4-both:hover ~ .pin4-imagetext{
-            opacity: 100%;
-            }
+    height: 20rem;
+    top: 0rem;
+    right: -4rem;
+    position: relative;
+  }
+}
+.pin2-text {
+  width: 53rem;
+  opacity: 0%;
+  position: absolute;
+  right: -1rem;
+}
+
+.pin2-both:hover ~ .pin2-imagetext {
+  opacity: 100%;
+}
+.pin3-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 94vw;
+}
+.pin3-image {
+  height: 40rem;
+  opacity: 0%;
+  z-index: 3;
+  position: absolute;
+  top: 0rem;
+  right: -0.5rem;
+  @include phone {
+    opacity: 100%;
+    height: 23rem;
+    margin: 1rem;
+    position: relative;
+    right: -7rem;
+  }
+}
+.pin3-text {
+  width: 53rem;
+  opacity: 0%;
+  position: absolute;
+}
+
+.pin3-both:hover ~ .pin3-imagetext {
+  opacity: 100%;
+}
+.pin4-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 94vw;
+}
+.pin4-image {
+  height: 40rem;
+  opacity: 0%;
+  z-index: 3;
+  position: absolute;
+  top: 0rem;
+  right: -3rem;
+  @include phone {
+    opacity: 100%;
+    height: 23rem;
+    margin: 1rem;
+    position: relative;
+    right: -7rem;
+  }
+}
+.pin4-text {
+  width: 56rem;
+  opacity: 0%;
+  position: absolute;
+  right: -3rem;
+}
+
+.pin4-both:hover ~ .pin4-imagetext {
+  opacity: 100%;
+}
