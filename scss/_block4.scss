@@ -123,8 +123,8 @@
     align-items: center;
   }
 }
-.pin1-image {
-  height: 40rem;
+/* .pin1-image {
+  height: 13rem;
   opacity: 0%;
   @include phone {
     opacity: 100%;
@@ -139,7 +139,7 @@
 
 .pin1-both:hover ~ .pin1-imagetext {
   opacity: 100%;
-}
+} */
 .pin2-info {
   display: flex;
   align-items: flex-end;
@@ -148,12 +148,12 @@
   width: 94vw;
 }
 .pin2-image {
-  height: 37rem;
+  height: 35rem;
   opacity: 0%;
   z-index: 3;
   position: absolute;
-  top: 1rem;
-  right: -2rem;
+  top: 2rem;
+  right: 0rem;
   @include phone {
     opacity: 100%;
     height: 20rem;
@@ -198,6 +198,7 @@
   width: 53rem;
   opacity: 0%;
   position: absolute;
+  margin: 0rem;
 }
 
 .pin3-both:hover ~ .pin3-imagetext {
@@ -230,6 +231,7 @@
   opacity: 0%;
   position: absolute;
   right: -3rem;
+  margin: 0rem;
 }
 
 .pin4-both:hover ~ .pin4-imagetext {
