@@ -707,7 +707,7 @@
 }
 
 .block4 {
-  height: 352vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -720,6 +720,7 @@
 @media (max-width: 420px) {
   .block4 {
     margin: 0rem;
+    height: 320vh;
   }
 }
 
@@ -848,7 +849,7 @@
 }
 
 .pin2-big:hover {
-  opacity: 50%;
+  opacity: 100%;
 }
 
 .pin3-big:not(hover) {
@@ -856,7 +857,7 @@
 }
 
 .pin3-big:hover {
-  opacity: 50%;
+  opacity: 100%;
 }
 
 .pin4-big:not(hover) {
@@ -864,7 +865,7 @@
 }
 
 .pin4-big:hover {
-  opacity: 50%;
+  opacity: 100%;
 }
 
 .pin1-info {
@@ -943,9 +944,10 @@
 @media (max-width: 420px) {
   .pin2-image {
     opacity: 100%;
-    height: 20rem;
+    width: 100vw;
+    height: auto;
     top: 0rem;
-    right: -4rem;
+    right: -0.25rem;
     position: relative;
   }
 }
@@ -1001,10 +1003,11 @@
 @media (max-width: 420px) {
   .pin3-image {
     opacity: 100%;
-    height: 23rem;
+    height: auto;
+    width: 100vw;
     margin: 1rem;
     position: relative;
-    right: -7rem;
+    right: -1.3rem;
   }
 }
 
@@ -1059,10 +1062,11 @@
 @media (max-width: 420px) {
   .pin4-image {
     opacity: 100%;
-    height: 23rem;
+    height: auto;
     margin: 1rem;
     position: relative;
-    right: -7rem;
+    right: -1.5rem;
+    width: 100vw;
   }
 }
 
