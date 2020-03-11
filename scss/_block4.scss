@@ -1,5 +1,5 @@
 .block4 {
-  height: auto;
+  height: 352vh;
   display: flex;
   margin: 2rem;
   justify-content: flex-start;
@@ -23,7 +23,8 @@
 
 .allpins {
   @include phone {
-    height: 100vh;
+    height: 150vh;
+    margin: 1rem;
   }
 }
 .pins {
@@ -123,7 +124,7 @@
     align-items: center;
   }
 }
-/* .pin1-image {
+.pin1-image {
   height: 13rem;
   opacity: 0%;
   @include phone {
@@ -139,7 +140,7 @@
 
 .pin1-both:hover ~ .pin1-imagetext {
   opacity: 100%;
-} */
+}
 .pin2-info {
   display: flex;
   align-items: flex-end;
@@ -148,12 +149,12 @@
   width: 94vw;
 }
 .pin2-image {
-  height: 35rem;
+  height: 38rem;
   opacity: 0%;
   z-index: 3;
   position: absolute;
   top: 2rem;
-  right: 0rem;
+  right: -3rem;
   @include phone {
     opacity: 100%;
     height: 20rem;
@@ -163,10 +164,18 @@
   }
 }
 .pin2-text {
-  width: 53rem;
+  width: 57rem;
   opacity: 0%;
   position: absolute;
-  right: -1rem;
+  right: -3rem;
+  bottom: 7rem;
+  @include phone {
+      opacity: 100%;
+      position: relative;
+      width: 22rem;
+      left: 0rem;
+      bottom: 0rem;
+  }
 }
 
 .pin2-both:hover ~ .pin2-imagetext {
@@ -199,6 +208,14 @@
   opacity: 0%;
   position: absolute;
   margin: 0rem;
+  bottom: 7rem;
+  @include phone {
+    opacity: 100%;
+    position: relative;
+    width: 22rem;
+    left: 0rem;
+    bottom: 0rem;
+  }
 }
 
 .pin3-both:hover ~ .pin3-imagetext {
@@ -232,6 +249,14 @@
   position: absolute;
   right: -3rem;
   margin: 0rem;
+  bottom: 7rem;
+  @include phone {
+    opacity: 100%;
+    position: relative;
+    width: 22rem;
+    left: 0rem;
+    bottom: 0rem;
+  }
 }
 
 .pin4-both:hover ~ .pin4-imagetext {
