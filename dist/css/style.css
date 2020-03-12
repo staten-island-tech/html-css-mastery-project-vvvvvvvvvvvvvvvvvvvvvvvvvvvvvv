@@ -16,8 +16,8 @@
 @media (max-width: 768px) {
   .block1 {
     background-image: url(../media/icecreamcollage1-tablet.jpg);
-    height: 150vh;
-    width: 143vw;
+    height: 100vh;
+    width: 100vw;
     margin-top: 0rem;
   }
 }
@@ -280,6 +280,7 @@
   top: 5rem;
   left: -2rem;
   width: 112vw;
+  z-index: 2;
 }
 
 @media (max-width: 768px) {
@@ -296,11 +297,11 @@
 @media (max-width: 768px) {
   .mobilebanner {
     opacity: 100%;
-    height: 100rem;
-    width: 100rem;
+    height: 50rem;
+    width: 50rem;
     position: absolute;
-    bottom: 1rem;
-    left: -11rem;
+    bottom: 18rem;
+    left: -3rem;
   }
 }
 
@@ -327,7 +328,7 @@
 
 @media (max-width: 768px) {
   .block2-title {
-    margin-bottom: -1rem;
+    margin-bottom: s1rem;
   }
 }
 
@@ -390,6 +391,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .block2-boxes {
+    position: absolute;
+  }
 }
 
 @media (max-width: 420px) {
@@ -572,6 +579,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .facts:not(hover) {
+    opacity: 100%;
+  }
+}
+
 @media (max-width: 420px) {
   .facts:not(hover) {
     opacity: 100%;
@@ -610,6 +623,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 2rem;
 }
 
 .longer {
@@ -619,11 +633,35 @@
   height: 0.5vh;
 }
 
+@media (max-width: 768px) {
+  .longer {
+    opacity: 100%;
+    height: 20vh;
+    margin: 1.5rem;
+  }
+}
+
 @media (max-width: 420px) {
   .longer {
     opacity: 100%;
     height: 13vh;
     margin: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .facts {
+    font-size: 1rem;
+    font: outline;
+    text-shadow: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .facts {
+    font-size: 1.5rem;
+    font: outline;
+    text-shadow: white;
   }
 }
 
@@ -643,6 +681,14 @@
   top: -1%;
 }
 
+@media (max-width: 768px) {
+  .fact1-container {
+    left: 9rem;
+    width: 30rem;
+    top: 3.4rem;
+  }
+}
+
 @media (max-width: 420px) {
   .fact1-container {
     left: 5.5rem;
@@ -659,6 +705,14 @@
   top: -7%;
 }
 
+@media (max-width: 768px) {
+  .fact2-container {
+    left: 9rem;
+    width: 30rem;
+    top: 0.4rem;
+  }
+}
+
 @media (max-width: 420px) {
   .fact2-container {
     left: 5.5rem;
@@ -673,6 +727,14 @@
   position: absolute;
   z-index: 2;
   top: 10%;
+}
+
+@media (max-width: 768px) {
+  .fact3-container {
+    left: 9rem;
+    width: 30rem;
+    top: -2.6rem;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1087,7 +1149,7 @@
   .pin3-image {
     height: 33rem;
     top: 0rem;
-    right: 0rem;
+    right: 1rem;
   }
 }
 
@@ -1108,6 +1170,14 @@
   position: absolute;
   margin: 0rem;
   bottom: 7rem;
+}
+
+@media (max-width: 1440px) {
+  .pin3-text {
+    width: 45rem;
+    right: 0rem;
+    bottom: 9rem;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1150,6 +1220,14 @@
   right: -3rem;
 }
 
+@media (max-width: 1440px) {
+  .pin4-image {
+    height: 33rem;
+    top: 0rem;
+    right: -0.5rem;
+  }
+}
+
 @media (max-width: 420px) {
   .pin4-image {
     opacity: 100%;
@@ -1168,6 +1246,14 @@
   right: -3rem;
   margin: 0rem;
   bottom: 7rem;
+}
+
+@media (max-width: 1440px) {
+  .pin4-text {
+    width: 47rem;
+    right: -1rem;
+    bottom: 9rem;
+  }
 }
 
 @media (max-width: 420px) {

@@ -3,7 +3,7 @@
   font-family: "Indie Flower", cursive;
   margin-bottom: 1rem;
   @include tablet {
-    margin-bottom: -1rem;
+    margin-bottom: s1rem;
   }
   @include phone {
     font-size: 1.5rem;
@@ -41,6 +41,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @include tablet {
+    position: absolute;
+  }
   @include phone {
     position: absolute;
   }
@@ -68,7 +71,6 @@
   margin: 2rem;
   height: 24vh;
   position: relative;
-  // margin-bottom: 4rem;
   @include phone {
     margin: 0rem;
   }
@@ -180,6 +182,11 @@
     opacity: 0%;
   }
 }
+@include tablet {
+  .facts:not(hover) {
+    opacity: 100%;
+  }
+}
 @include phone {
   .facts:not(hover) {
     opacity: 100%;
@@ -206,20 +213,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .longer {
   filter: grayscale(50%);
   opacity: 0%;
   height: 0.5vh;
-
+  @include tablet {
+    opacity: 100%;
+    height: 20vh;
+    margin: 1.5rem;
+  }
   @include phone {
     opacity: 100%;
     height: 13vh;
     margin: 0.7rem;
   }
 }
-
+@include tablet {
+  .facts {
+    font-size: 1rem;
+    font: outline;
+    text-shadow: white;
+  }
+}
+@include tablet {
+  .facts {
+    font-size: 1.5rem;
+    font: outline;
+    text-shadow: white;
+  }
+}
 @include phone {
   .facts {
     font-size: 1rem;
@@ -233,6 +258,11 @@
   position: absolute;
   z-index: 2;
   top: -1%;
+  @include tablet {
+    left: 9rem;
+    width: 30rem;
+    top: 3.4rem;
+  }
   @include phone {
     left: 5.5rem;
     top: 2.4rem;
@@ -245,6 +275,11 @@
   position: absolute;
   z-index: 2;
   top: -7%;
+  @include tablet {
+      left: 9rem;
+      width: 30rem;
+      top: 0.4rem;
+  }
   @include phone {
     left: 5.5rem;
     top: -1.75rem;
@@ -257,6 +292,11 @@
   position: absolute;
   z-index: 2;
   top: 10%;
+  @include tablet {
+    left: 9rem;
+    width: 30rem;
+    top: -2.6rem;
+  }
   @include phone {
     left: 5.5rem;
     top: -5.2rem;

@@ -10,8 +10,8 @@
   }
   @include tablet {
     background-image: url(../media/icecreamcollage1-tablet.jpg);
-    height: 150vh;
-    width: 143vw;
+    height: 100vh;
+    width: 100vw;
     margin-top: 0rem;
   }
   @include phone {
@@ -181,6 +181,7 @@
   top: 5rem;
   left: -2rem;
   width: 112vw;
+  z-index: 2;
   @include tablet {
     opacity: 0%;
   }
@@ -190,11 +191,11 @@
   width: 0vw;
   @include tablet {
     opacity: 100%;
-    height: 100rem;
-    width: 100rem;
+    height: 50rem;
+    width: 50rem;
     position: absolute;
-    bottom: 1rem;
-    left: -11rem;
+    bottom: 18rem;
+    left: -3rem;
   }
   @include phone {
     opacity: 100%;

@@ -243,7 +243,7 @@
   @include laptop {
     height: 33rem;
     top: 0rem;
-    right: 0rem;
+    right: 1rem;
   }
   @include phone {
     opacity: 100%;
@@ -260,6 +260,11 @@
   position: absolute;
   margin: 0rem;
   bottom: 7rem;
+  @include laptop {
+    width: 45rem;
+    right: 0rem;
+    bottom: 9rem;
+  }
   @include phone {
     opacity: 100%;
     position: relative;
@@ -286,6 +291,11 @@
   position: absolute;
   top: 0rem;
   right: -3rem;
+  @include laptop {
+    height: 33rem;
+    top: 0rem;
+    right: -0.5rem;
+  }
   @include phone {
     opacity: 100%;
     height: auto;
@@ -302,6 +312,11 @@
   right: -3rem;
   margin: 0rem;
   bottom: 7rem;
+  @include laptop {
+    width: 47rem;
+    right: -1rem;
+    bottom: 9rem;
+  }
   @include phone {
     opacity: 100%;
     position: relative;
