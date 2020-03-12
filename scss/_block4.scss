@@ -14,6 +14,9 @@
 .map {
   height: 89vh;
   position: absolute;
+  @include laptop {
+      height: 60vh;
+  }
   @include phone {
     height: 44vh;
   }
@@ -32,6 +35,9 @@
   height: 5rem;
   position: absolute;
   z-index: 2;
+  @include laptop {
+    height: 4rem;
+  }
   @include phone {
     height: 2rem;
   }
@@ -39,6 +45,9 @@
 .big-pins {
   z-index: 3;
   height: 6.5rem;
+  @include laptop {
+      height: 4rem;
+  }
 }
 .pin1 {
   top: 7rem;
@@ -55,6 +64,10 @@
 .pin2 {
   top: 20rem;
   left: 27rem;
+  @include laptop {
+      top: 12rem;
+      left: 16.5rem;
+  }
   @include phone {
     top: 8rem;
     left: 11.5rem;
@@ -63,10 +76,18 @@
 .pin2-big {
   top: 19.25rem;
   left: 26.25rem;
+  @include laptop {
+    top: 12rem;
+    left: 16.5rem;
+}
 }
 .pin3 {
   top: 23rem;
   left: 45rem;
+  @include laptop {
+    top: 14rem;
+    left: 27.5rem;
+  }
   @include phone {
     top: 9.8rem;
     left: 19rem;
@@ -75,10 +96,18 @@
 .pin3-big {
   top: 22.25rem;
   left: 44.25rem;
+  @include laptop {
+    top: 14rem;
+    left: 27.5rem;
+  }
 }
 .pin4 {
   top: 32rem;
   left: 17rem;
+  @include laptop {
+    top: 19rem;
+    left: 10rem;
+}
   @include phone {
     top: 13.5rem;
     left: 7rem;
@@ -87,6 +116,10 @@
 .pin4-big {
   top: 31.25rem;
   left: 16.25rem;
+  @include laptop {
+    top: 19rem;
+    left: 10rem;
+}
 }
 
 .pin1-big:not(hover) {
@@ -156,6 +189,11 @@
   position: absolute;
   top: 2rem;
   right: -3rem;
+  @include laptop {
+    height: 30rem;
+    top: 0rem;
+    right: 0rem;
+  }
   @include phone {
     opacity: 100%;
     width: 100vw;
@@ -171,6 +209,11 @@
   position: absolute;
   right: -3rem;
   bottom: 7rem;
+  @include laptop {
+    width: 45rem;
+    right: 0rem;
+    bottom: 12rem;
+  }
   @include phone {
       opacity: 100%;
       position: relative;
@@ -197,6 +240,11 @@
   position: absolute;
   top: 0rem;
   right: -0.5rem;
+  @include laptop {
+    height: 33rem;
+    top: 0rem;
+    right: 0rem;
+  }
   @include phone {
     opacity: 100%;
     height: auto;

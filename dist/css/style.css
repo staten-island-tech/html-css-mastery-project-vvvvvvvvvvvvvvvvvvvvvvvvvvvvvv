@@ -6,6 +6,13 @@
   background-size: cover;
 }
 
+@media (max-width: 1440px) {
+  .block1 {
+    height: 90vh;
+    margin-bottom: 3rem;
+  }
+}
+
 @media (max-width: 768px) {
   .block1 {
     background-image: url(../media/icecreamcollage1-tablet.jpg);
@@ -733,6 +740,12 @@
   position: absolute;
 }
 
+@media (max-width: 1440px) {
+  .map {
+    height: 60vh;
+  }
+}
+
 @media (max-width: 420px) {
   .map {
     height: 44vh;
@@ -756,6 +769,12 @@
   z-index: 2;
 }
 
+@media (max-width: 1440px) {
+  .pins {
+    height: 4rem;
+  }
+}
+
 @media (max-width: 420px) {
   .pins {
     height: 2rem;
@@ -765,6 +784,12 @@
 .big-pins {
   z-index: 3;
   height: 6.5rem;
+}
+
+@media (max-width: 1440px) {
+  .big-pins {
+    height: 4rem;
+  }
 }
 
 .pin1 {
@@ -789,6 +814,13 @@
   left: 27rem;
 }
 
+@media (max-width: 1440px) {
+  .pin2 {
+    top: 12rem;
+    left: 16.5rem;
+  }
+}
+
 @media (max-width: 420px) {
   .pin2 {
     top: 8rem;
@@ -801,9 +833,23 @@
   left: 26.25rem;
 }
 
+@media (max-width: 1440px) {
+  .pin2-big {
+    top: 12rem;
+    left: 16.5rem;
+  }
+}
+
 .pin3 {
   top: 23rem;
   left: 45rem;
+}
+
+@media (max-width: 1440px) {
+  .pin3 {
+    top: 14rem;
+    left: 27.5rem;
+  }
 }
 
 @media (max-width: 420px) {
@@ -818,9 +864,23 @@
   left: 44.25rem;
 }
 
+@media (max-width: 1440px) {
+  .pin3-big {
+    top: 14rem;
+    left: 27.5rem;
+  }
+}
+
 .pin4 {
   top: 32rem;
   left: 17rem;
+}
+
+@media (max-width: 1440px) {
+  .pin4 {
+    top: 19rem;
+    left: 10rem;
+  }
 }
 
 @media (max-width: 420px) {
@@ -833,6 +893,13 @@
 .pin4-big {
   top: 31.25rem;
   left: 16.25rem;
+}
+
+@media (max-width: 1440px) {
+  .pin4-big {
+    top: 19rem;
+    left: 10rem;
+  }
 }
 
 .pin1-big:not(hover) {
@@ -941,6 +1008,14 @@
   right: -3rem;
 }
 
+@media (max-width: 1440px) {
+  .pin2-image {
+    height: 30rem;
+    top: 0rem;
+    right: 0rem;
+  }
+}
+
 @media (max-width: 420px) {
   .pin2-image {
     opacity: 100%;
@@ -958,6 +1033,14 @@
   position: absolute;
   right: -3rem;
   bottom: 7rem;
+}
+
+@media (max-width: 1440px) {
+  .pin2-text {
+    width: 45rem;
+    right: 0rem;
+    bottom: 12rem;
+  }
 }
 
 @media (max-width: 420px) {
@@ -998,6 +1081,14 @@
   position: absolute;
   top: 0rem;
   right: -0.5rem;
+}
+
+@media (max-width: 1440px) {
+  .pin3-image {
+    height: 33rem;
+    top: 0rem;
+    right: 0rem;
+  }
 }
 
 @media (max-width: 420px) {

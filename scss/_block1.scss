@@ -4,6 +4,10 @@
   background-repeat: no-repeat;
   margin-bottom: 14rem;
   background-size: cover;
+  @include laptop {
+    height: 90vh;
+    margin-bottom: 3rem;
+  }
   @include tablet {
     background-image: url(../media/icecreamcollage1-tablet.jpg);
     height: 150vh;
