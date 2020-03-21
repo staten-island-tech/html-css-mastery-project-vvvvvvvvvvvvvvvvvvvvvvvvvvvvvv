@@ -5,8 +5,8 @@
   margin-bottom: 14rem;
   background-size: cover;
   @include laptop {
-    height: 90vh;
     margin-bottom: 3rem;
+    background-size: contain;
   }
   @include tablet {
     background-image: url(../media/icecreamcollage1-tablet.jpg);

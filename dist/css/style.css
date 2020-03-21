@@ -8,8 +8,8 @@
 
 @media (max-width: 1440px) {
   .block1 {
-    height: 90vh;
     margin-bottom: 3rem;
+    background-size: contain;
   }
 }
 
